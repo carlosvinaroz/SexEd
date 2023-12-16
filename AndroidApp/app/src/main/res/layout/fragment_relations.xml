@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PillsFragment">
+    tools:context=".RelationsFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,10 +13,10 @@
 
         <!-- Título arriba del todo -->
         <TextView
-            android:id="@+id/pillsTopTitleTextView"
+            android:id="@+id/relationsTopTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pillsTitle"
+            android:text="@string/positive_relations_title"
             android:textSize="18sp"
             android:textAlignment="center"
             android:textStyle="bold"/>
@@ -24,40 +24,39 @@
 
         <!-- Descripción justo debajo del título -->
         <TextView
-            android:id="@+id/pillsDescriptionView"
+            android:id="@+id/relationsDescriptionView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_pills"
-            android:layout_below="@id/pillsTopTitleTextView"
+            android:text="@string/text_positive_relations"
+            android:layout_below="@id/relationsTopTitleTextView"
             android:layout_marginTop="16dp"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
 
+        <!-- Nueva sección con una lista -->
         <TextView
-            android:id="@+id/listTextView"
+            android:id="@+id/listTextViewRelations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/pillsDescriptionView"
             android:layout_marginTop="16dp"
-            android:text="@string/pills_steps"
+            android:layout_below ="@+id/relationsDescriptionView"
+            android:text="@string/relations_advices"
             android:textSize="16sp"
             android:textColor="@android:color/black"/>
 
-        <!-- Imagen entre la descripción y el siguiente título -->
         <!-- Imagen entre la descripción y el siguiente título -->
         <ImageView
             android:id="@+id/staticImageView"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_below="@id/pillsDescriptionView"
+            android:layout_below="@id/relationsDescriptionView"
             android:layout_centerInParent="true"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="223dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="0dp"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/pills" />
+            android:src="@drawable/positive" />
 
     </RelativeLayout>
 </androidx.core.widget.NestedScrollView>

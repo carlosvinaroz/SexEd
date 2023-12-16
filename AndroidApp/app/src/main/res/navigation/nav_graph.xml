@@ -53,7 +53,18 @@
 
         <action
             android:id="@+id/action_SexualityFragment_to_RelationsFragment"
-            app:destination="@id/PreservativeFragment" />
+            app:destination="@id/RelationsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RelationsFragment"
+        android:name="com.example.sexed.RelationsFragment"
+        android:label="@string/positive_relationships"
+        tools:layout="@layout/fragment_relations">
+
+        <action
+            android:id="@+id/action_RelationsFragment_to_SexualityFragment"
+            app:destination="@id/SexualityFragment" />
     </fragment>
 
     <fragment
