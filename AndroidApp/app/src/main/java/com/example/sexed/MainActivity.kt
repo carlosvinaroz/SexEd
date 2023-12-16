@@ -11,6 +11,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.SearchView
+import androidx.navigation.fragment.findNavController
 import com.example.sexed.databinding.ActivityMainBinding
 
 
@@ -35,13 +36,13 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         // Link layout elements
-        searchView = findViewById(R.id.searchView)
+        /*searchView = findViewById(R.id.searchView)
         buttonClamidia = findViewById(R.id.buttonClamidia)
         buttonGonorrea = findViewById(R.id.buttonGonorrea)
-        buttonVPH = findViewById(R.id.buttonVPH)
+        buttonVPH = findViewById(R.id.buttonVPH)*/
 
         // Set up listeners and other operations as needed
-        setupListeners()
+        //setupListeners()
 
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -49,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setupListeners() {
+    /*private fun setupListeners() {
         // Set up a listener for the SearchView
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
@@ -66,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         // Set up listeners for the buttons
         buttonClamidia.setOnClickListener {
             // Logic when the clamidia button is clicked
+            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
         buttonGonorrea.setOnClickListener {
@@ -75,7 +77,7 @@ class MainActivity : AppCompatActivity() {
         buttonVPH.setOnClickListener {
             // Logic when the VPH button is clicked
         }
-    }
+    }*/
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
