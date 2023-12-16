@@ -42,8 +42,41 @@
         <action
             android:id="@+id/action_SexualityFragment_to_HygieneFragment"
             app:destination="@id/HygieneFragment" />
+
+        <action
+            android:id="@+id/action_SexualityFragment_to_PreservativeFragment"
+            app:destination="@id/PreservativeFragment" />
+
+        <action
+            android:id="@+id/action_SexualityFragment_to_PillsFragment"
+            app:destination="@id/PillsFragment" />
+
+        <action
+            android:id="@+id/action_SexualityFragment_to_RelationsFragment"
+            app:destination="@id/PreservativeFragment" />
     </fragment>
 
+    <fragment
+        android:id="@+id/PreservativeFragment"
+        android:name="com.example.sexed.PreservativeFragment"
+        android:label="@string/condom"
+        tools:layout="@layout/fragment_preservative">
+
+        <action
+            android:id="@+id/action_PreservativeFragment_to_SexualityFragment"
+            app:destination="@id/SexualityFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/PillsFragment"
+        android:name="com.example.sexed.PillsFragment"
+        android:label="@string/pills"
+        tools:layout="@layout/fragment_pills">
+
+        <action
+            android:id="@+id/action_PillsFragment_to_SexualityFragment"
+            app:destination="@id/SexualityFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/HygieneFragment"

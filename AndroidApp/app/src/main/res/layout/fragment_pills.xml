@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HygieneFragment">
+    tools:context=".PillsFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,10 +13,10 @@
 
         <!-- Título arriba del todo -->
         <TextView
-            android:id="@+id/hygieneTopTitleTextView"
+            android:id="@+id/pillsTopTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cleanUs"
+            android:text="@string/pillsTitle"
             android:textSize="18sp"
             android:textAlignment="center"
             android:textStyle="bold"/>
@@ -24,38 +24,40 @@
 
         <!-- Descripción justo debajo del título -->
         <TextView
-            android:id="@+id/hygieneDescriptionTextView"
+            android:id="@+id/pillsDescriptionView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_hygiene"
-            android:layout_below="@id/hygieneTopTitleTextView"
+            android:text="@string/text_pills"
+            android:layout_below="@id/pillsTopTitleTextView"
             android:layout_marginTop="16dp"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
-        <!-- Título justo debajo de la imagen -->
-
-        <!-- Imagen entre la descripción y el siguiente título -->
 
         <TextView
-            android:id="@+id/hygieneTitleTextView"
+            android:id="@+id/listTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/staticImageView"
-            android:layout_marginTop="-369dp"
-            android:text="@string/bathroom"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:layout_below="@id/pillsDescriptionView"
+            android:layout_marginTop="16dp"
+            android:text="@string/pills_steps"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
 
+        <!-- Imagen entre la descripción y el siguiente título -->
+        <!-- Imagen entre la descripción y el siguiente título -->
         <ImageView
             android:id="@+id/staticImageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/hygieneDescriptionTextView"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/ducha" />
-        <!-- Resto del contenido, como el GridLayout, debajo del segundo título -->
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/pillsDescriptionView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/pills"
+            android:layout_centerInParent="true"/>
 
     </RelativeLayout>
 </androidx.core.widget.NestedScrollView>
