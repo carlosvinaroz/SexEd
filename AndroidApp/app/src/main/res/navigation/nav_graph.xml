@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_SexualityFragment"
+            app:destination="@id/SexualityFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -24,5 +27,32 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SexualityFragment"
+        android:name="com.example.sexed.SexualityFragment"
+        android:label="@string/sexuality"
+        tools:layout="@layout/fragment_sexuality">
+
+        <action
+            android:id="@+id/action_SexualityFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+
+        <action
+            android:id="@+id/action_SexualityFragment_to_HygieneFragment"
+            app:destination="@id/HygieneFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/HygieneFragment"
+        android:name="com.example.sexed.HygieneFragment"
+        android:label="@string/hygiene"
+        tools:layout="@layout/fragment_hygiene">
+
+        <action
+            android:id="@+id/action_HygieneFragment_to_SexualityFragment"
+            app:destination="@id/SexualityFragment" />
     </fragment>
 </navigation>

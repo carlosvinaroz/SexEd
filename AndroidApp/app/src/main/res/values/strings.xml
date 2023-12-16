@@ -2,12 +2,17 @@
     <string name="app_name">SexEd</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label">SexEd</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="clamidia">Clamidia</string>
-    <string name="gonorrea">Gonorrea</string>
+    <string name="hygiene">Higiene</string>
+    <string name="sexuality">Sexualidad</string>
+    <string name="condom">Preservativo</string>
+    <string name="positive_relationships">Relaciones positivas</string>
+    <string name="pills">Pastillas anticonceptivas</string>
+    <string name="goTo">Abrir pestaña</string>
     <string name="vph">VPH</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -45,4 +50,9 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_hygiene">La salud sexual es un aspecto fundamental de nuestro bienestar general, y la higiene desempeña un papel crucial en su mantenimiento. La práctica de buenos hábitos de higiene no solo promueve una sensación de frescura y comodidad, sino que también contribuye significativamente a la prevención de infecciones y enfermedades de transmisión sexual.</string>
+    <string name="cleanUs">Cuidemos de nosotros</string>
+    <string name="bathroom">Es esencial lavar regularmente las áreas genitales con agua y jabón.</string>
 </resources>

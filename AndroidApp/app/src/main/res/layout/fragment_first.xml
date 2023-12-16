@@ -24,10 +24,10 @@
             android:layout_marginBottom="16dp"/>
 
         <Button
-            android:id="@+id/buttonGonorrea"
+            android:id="@+id/buttonSexuality"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/gonorrea"
+            android:text="@string/sexuality"
             android:layout_marginBottom="16dp"/>
 
         <Button

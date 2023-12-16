@@ -36,8 +36,8 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
-        binding.buttonGonorrea.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+        binding.buttonSexuality.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_SexualityFragment)
         }
 
         binding.buttonVPH.setOnClickListener {
