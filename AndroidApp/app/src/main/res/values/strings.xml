@@ -27,42 +27,9 @@
     <string name="sectionSecond">Síntomas</string>
     <string name="sectionThird">Tratamiento</string>
     <string name="sectionFourth">Video</string>
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
+    <string name="text_chlamydia">Las infecciones por clamidia son una ETS común que puede afectar tanto a los hombres como a las mujeres. Pueden causar daño permanente en el aparato reproductor de la mujer. El daño puede hacer difícil o imposible quedar embarazada en el futuro. Las infecciones por clamidia también pueden causar embarazos ectópicos (embarazos que ocurren fuera del útero) potencialmente mortales.</string>
+    <string name="text_gonorrhea">La gonorrea es una infección de trasmisión sexual, que también se conoce como una enfermedad de trasmisión sexual. Afecta a hombres y mujeres a través de una bacteria que se presenta con mayor frecuencia en la uretra, el recto o la garganta. En las mujeres, la gonorrea también puede infectar el cuello de la matriz.</string>
+    <string name="text_vph">Los virus del papiloma humano (VPH) son un grupo de virus relacionados entre sí. Pueden causar verrugas en diferentes partes del cuerpo. Existen más de 200 tipos. Cerca de 40 de ellos afectan a los genitales. Estos se propagan a través del contacto sexual con una persona infectada. También se pueden propagar a través de otro contacto íntimo de piel a piel. Algunos de ellos pueden ponerle en riesgo desarrollar un cáncer.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_hygiene">La salud sexual es un aspecto fundamental de nuestro bienestar general, y la higiene desempeña un papel crucial en su mantenimiento. La práctica de buenos hábitos de higiene no solo promueve frescura y comodidad, sino que también contribuye significativamente a la prevención de infecciones y enfermedades ETS.</string>

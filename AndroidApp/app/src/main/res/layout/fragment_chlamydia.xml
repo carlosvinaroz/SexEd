@@ -1,14 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<!-- res/layout/fragment_hygiene.xml -->
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".diseases.ChlamydiaFragment">
+
+<RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".diseases.ChlamydiaFragment">
+    android:layout_height="wrap_content"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- Título arriba del todo -->
     <TextView
+        android:id="@+id/chlamydiaTopTitleTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/chlamydia_fragment_label"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
 
-</FrameLayout>
+
+    <!-- Descripción justo debajo del título -->
+    <TextView
+        android:id="@+id/chlamydiaDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_chlamydia"
+        android:layout_below="@id/chlamydiaTopTitleTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <!-- Título justo debajo de la imagen -->
+
+    <!-- Imagen entre la descripción y el siguiente título -->
+
+
+    <ImageView
+        android:id="@+id/chlamydiaImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_below="@id/chlamydiaDescriptionTextView"
+        android:layout_marginTop="28dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/image_bath_description"
+        android:src="@drawable/clamidia" />
+    <!-- Resto del contenido, como el GridLayout, debajo del segundo título -->
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
