@@ -40,8 +40,8 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SexualityFragment)
         }
 
-        binding.buttonVPH.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+        binding.buttonMenstruation.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_MenstruationFragment)
         }
     }
 

@@ -17,6 +17,10 @@
         <action
             android:id="@+id/action_FirstFragment_to_SexualityFragment"
             app:destination="@id/SexualityFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_MenstruationFragment"
+            app:destination="@id/MenstruationFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -98,5 +102,46 @@
         <action
             android:id="@+id/action_HygieneFragment_to_SexualityFragment"
             app:destination="@id/SexualityFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MenstruationFragment"
+        android:name="com.example.sexed.MenstruationFragment"
+        android:label="@string/menstruation"
+        tools:layout="@layout/fragment_menstruation">
+
+        <action
+            android:id="@+id/action_MenstruationFragment_to_CompressFragment"
+            app:destination="@id/CompressFragment" />
+
+        <action
+            android:id="@+id/action_MenstruationFragment_to_DelaysFragment"
+            app:destination="@id/DelaysFragment" />
+
+        <action
+            android:id="@+id/action_MenstruationFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CompressFragment"
+        android:name="com.example.sexed.CompressFragment"
+        android:label="@string/compress"
+        tools:layout="@layout/fragment_compress">
+
+        <action
+            android:id="@+id/action_CompressFragment_to_MenstruationFragment"
+            app:destination="@id/MenstruationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DelaysFragment"
+        android:name="com.example.sexed.DelaysFragment"
+        android:label="@string/delays"
+        tools:layout="@layout/fragment_delays">
+
+        <action
+            android:id="@+id/action_DelaysFragment_to_MenstruationFragment"
+            app:destination="@id/MenstruationFragment" />
     </fragment>
 </navigation>

@@ -35,49 +35,11 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-        // Link layout elements
-        /*searchView = findViewById(R.id.searchView)
-        buttonClamidia = findViewById(R.id.buttonClamidia)
-        buttonGonorrea = findViewById(R.id.buttonGonorrea)
-        buttonVPH = findViewById(R.id.buttonVPH)*/
-
-        // Set up listeners and other operations as needed
-        //setupListeners()
-
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
     }
-
-    /*private fun setupListeners() {
-        // Set up a listener for the SearchView
-        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
-            override fun onQueryTextSubmit(query: String?): Boolean {
-                // Logic when the search query is submitted
-                return true
-            }
-
-            override fun onQueryTextChange(newText: String?): Boolean {
-                // Logic when the search query text changes
-                return true
-            }
-        })
-
-        // Set up listeners for the buttons
-        buttonClamidia.setOnClickListener {
-            // Logic when the clamidia button is clicked
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-        }
-
-        buttonGonorrea.setOnClickListener {
-            // Logic when the gonorrea button is clicked
-        }
-
-        buttonVPH.setOnClickListener {
-            // Logic when the VPH button is clicked
-        }
-    }*/
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.

@@ -43,7 +43,8 @@
             android:layout_marginTop="16dp"
             android:text="@string/condom_steps"
             android:textSize="16sp"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
 
         <!-- Imagen entre la descripción y el siguiente título -->
         <ImageView
