@@ -4,8 +4,14 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">SexEd</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="diseases_fragment_label">Enfermedades</string>
+    <string name="chlamydia_fragment_label">Clamidia</string>
+    <string name="gonorrhea_fragment_label">Clamidia</string>
+    <string name="vph_fragment_label">Clamidia</string>
+    <string name="diseases_sections_fragment_label">Secciones</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="diseases">Enfermedades</string>
     <string name="clamidia">Clamidia</string>
     <string name="hygiene">Higiene</string>
     <string name="sexuality">Sexualidad</string>
@@ -14,6 +20,13 @@
     <string name="pills">Pastillas anticonceptivas</string>
     <string name="goTo">Abrir pestaña</string>
     <string name="menstruation">Menstruación</string>
+    <string name="gonorrea">Gonorrea</string>
+    <string name="vph">Virus del Papiloma Humano (VPH)</string>
+    <string name="information">Información</string>
+    <string name="sectionOne">Descripción</string>
+    <string name="sectionSecond">Síntomas</string>
+    <string name="sectionThird">Tratamiento</string>
+    <string name="sectionFourth">Video</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus

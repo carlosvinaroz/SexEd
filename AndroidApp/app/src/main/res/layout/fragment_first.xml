@@ -16,10 +16,10 @@
             android:layout_height="match_parent" />
 
         <Button
-            android:id="@+id/buttonClamidia"
+            android:id="@+id/buttonDiseases"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/clamidia"
+            android:text="@string/diseases"
             android:layout_marginBottom="16dp"/>
 
         <Button

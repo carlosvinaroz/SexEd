@@ -2,4 +2,26 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores básicos -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Colores de fondo -->
+    <color name="colorBackgroundCardView">#B2DFDB</color>
+    <color name="colorBackgroundDark">#C0C0C0</color>
+
+    <!-- Colores de texto -->
+    <color name="colorText">#333333</color>
+    <color name="colorTextLight">#FFFFFF</color>
+
+    <!-- Colores de botones -->
+    <color name="colorButtonNormal">#4CAF50</color>
+    <color name="colorButtonPressed">#388E3C</color>
+
+    <!-- Colores de estado (ejemplo: errores, éxito, advertencias) -->
+    <color name="colorError">#FF0000</color>
+    <color name="colorSuccess">#00FF00</color>
+    <color name="colorWarning">#FFA500</color>
 </resources>

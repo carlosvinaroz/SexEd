@@ -1,103 +1,109 @@
-<!--<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DiseasesFragment">
+    tools:context=".diseases.DiseasesFragment">
 
-
-    <TextView
+    <LinearLayout
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-</FrameLayout>
-    -->
-
-<!-- fragment_diseases.xml -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
-
-    <!-- Tarjeta para Clamidia -->
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
-
-        <LinearLayout
+        <!-- Tarjeta para Clamidia -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:layout_marginBottom="16dp"
+            card_view:cardElevation="8dp">
 
-            <!-- Información sobre Clamidia (TextViews, ImageView, Enlace a YouTube) -->
-            <!-- Puedes personalizar según tus necesidades -->
+            <LinearLayout
+                android:id="@+id/chlamydiaLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Clamidia"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"/>
+                <!-- Información sobre Clamidia (TextViews, ImageView, Enlace a YouTube) -->
+                <!-- Puedes personalizar según tus necesidades -->
 
-            <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario -->
+                <TextView
+                    android:id="@+id/chlamydiaTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clamidia"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"/>
+                <!--style="@style/TextviewStyle"-->
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ver Video sobre Clamidia"
-                android:onClick="openYouTubeVideo"
-                android:layout_marginTop="8dp"/>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
+                <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario -->
 
-    <!-- Tarjeta para Gonorrea -->
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
+                <Button
+                    android:id="@+id/chlamydiaButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+                <!-- ViewPager para las 4 pestañas -->
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"/>
 
-        <LinearLayout
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta para Gonorrea -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:layout_marginBottom="16dp"
+            card_view:cardElevation="8dp">
 
-            <!-- Información sobre Gonorrea (TextViews, ImageView, Enlace a YouTube) -->
-            <!-- Puedes personalizar según tus necesidades -->
-
-            <!-- Etiqueta para el nombre de la enfermedad -->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Gonorrea"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"/>
+                android:orientation="vertical"
+                android:padding="16dp">
 
-            <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario para Gonorrea -->
+                <!-- Información sobre Gonorrea (TextViews, ImageView, Enlace a YouTube) -->
+                <!-- Puedes personalizar según tus necesidades -->
 
-            <!-- Botón para ver un video sobre Gonorrea -->
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ver Video sobre Gonorrea"
-                android:onClick="openYouTubeVideo"
-                android:layout_marginTop="8dp"/>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
+                <!-- Etiqueta para el nombre de la enfermedad -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gonorrea"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"/>
 
-    <!-- Tarjeta para VPH -->
-    <androidx.cardview.widget.CardView
+                <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario para Gonorrea -->
+
+                <!-- Botón para ver un video sobre Gonorrea -->
+                <Button
+                    android:id="@+id/gonorrheaButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta para VPH -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            card_view:cardElevation="8dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -112,20 +118,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Virus del Papiloma Humano (VPH)"
+                    android:text="@string/vph"
                     android:textSize="18sp"
                     android:textStyle="bold"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="8dp"/>
 
                 <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario para VPH -->
 
                 <!-- Botón para ver un video sobre VPH -->
                 <Button
+                    android:id="@+id/vphButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ver Video sobre VPH"
-                    android:onClick="openYouTubeVideo"
+                    android:text="@string/information"
+                    android:layout_gravity="center"
                     android:layout_marginTop="8dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-</LinearLayout>
+    </LinearLayout>
+</FrameLayout>

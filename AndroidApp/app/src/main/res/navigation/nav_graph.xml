@@ -12,25 +12,63 @@
         tools:layout="@layout/fragment_first">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_FirstFragment_to_DiseasesFragment"
+            app:destination="@id/DiseasesFragment" />
         <action
             android:id="@+id/action_FirstFragment_to_SexualityFragment"
             app:destination="@id/SexualityFragment" />
         <action
             android:id="@+id/action_FirstFragment_to_MenstruationFragment"
             app:destination="@id/MenstruationFragment" />
-
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.sexed.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:id="@+id/DiseasesFragment"
+        android:name="com.example.sexed.diseases.DiseasesFragment"
+        android:label="@string/diseases_fragment_label"
+        tools:layout="@layout/fragment_diseases">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_DiseasesFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_DiseasesFragment_to_ChlamydiaFragment"
+            app:destination="@id/ChlamydiaFragment" />
+        <action
+            android:id="@+id/action_DiseasesFragment_to_GonorrheaFragment"
+            app:destination="@id/GonorrheaFragment" />
+        <action
+            android:id="@+id/action_DiseasesFragment_to_VPHFragment"
+            app:destination="@id/VPHFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ChlamydiaFragment"
+        android:name="com.example.sexed.diseases.ChlamydiaFragment"
+        android:label="@string/chlamydia_fragment_label"
+        tools:layout="@layout/fragment_chlamydia">
+
+        <action
+            android:id="@+id/action_ChlamydiaFragment_to_DiseasesFragment"
+            app:destination="@id/DiseasesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/GonorrheaFragment"
+        android:name="com.example.sexed.diseases.GonorrheaFragment"
+        android:label="@string/gonorrhea_fragment_label"
+        tools:layout="@layout/fragment_gonorrhea">
+
+        <action
+            android:id="@+id/action_GonorrheaFragment_to_DiseasesFragment"
+            app:destination="@id/DiseasesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/VPHFragment"
+        android:name="com.example.sexed.diseases.VPHFragment"
+        android:label="@string/vph_fragment_label"
+        tools:layout="@layout/fragment_v_p_h">
+
+        <action
+            android:id="@+id/action_VPHFragment_to_DiseasesFragment"
+            app:destination="@id/DiseasesFragment" />
     </fragment>
 
     <fragment
