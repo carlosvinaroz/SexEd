@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SexualityFragment">
 
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -17,28 +18,32 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
 
+        <!-- Fondo de la CardView -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ducha" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/hygiene"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"/>
-
             <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario -->
+
+            <TextView
+                style="@style/TextViewStyleCardView"
+                android:text="@string/hygiene" />
 
             <Button
                 android:id="@+id/buttonHygiene"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/goTo"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -47,30 +52,30 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
 
+        <!-- Fondo de la CardView -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/positive" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Información sobre Gonorrea (TextViews, ImageView, Enlace a YouTube) -->
-            <!-- Puedes personalizar según tus necesidades -->
+            <!-- Fondo de la CardView -->
 
             <!-- Etiqueta para Relaciones -->
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/positive_relationships"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"/>
+                style="@style/TextViewStyleCardView"
+                android:text="@string/positive_relationships"/>
 
             <Button
                 android:id="@+id/buttonPositiveRelations"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/goTo"
-                android:layout_marginTop="8dp"/>
+                style="@style/ButtonCardView"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -80,6 +85,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
 
+        <!-- Fondo de la CardView -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pills" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,20 +100,14 @@
 
             <!-- Etiqueta para Pastillas -->
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/pills"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"/>
+                style="@style/TextViewStyleCardView"
+                android:text="@string/pills"/>
 
             <!-- Botón para ir a la seccion de Pastillas -->
             <Button
                 android:id="@+id/buttonPills"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/goTo"
-                android:layout_marginTop="8dp"/>
+                style="@style/ButtonCardView"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -111,6 +117,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp">
 
+        <!-- Fondo de la CardView -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/condom" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,19 +132,13 @@
 
             <!-- Etiqueta para el preservativo -->
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/condom"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"/>
+                style="@style/TextViewStyleCardView"
+                android:text="@string/condom" />
             <!-- Botón para ir a la seccion de preservativo -->
             <Button
                 android:id="@+id/buttonPreservative"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/goTo"
-                android:layout_marginTop="8dp"/>
+                style="@style/ButtonCardView"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

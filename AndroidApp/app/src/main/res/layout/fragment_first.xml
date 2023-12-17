@@ -17,24 +17,18 @@
 
         <Button
             android:id="@+id/buttonDiseases"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/diseases"
-            android:layout_marginBottom="16dp"/>
+            style="@style/ButtonCardView"/>
 
         <Button
+            style="@style/ButtonCardView"
             android:id="@+id/buttonSexuality"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sexuality"
-            android:layout_marginBottom="16dp"/>
+            android:text="@string/sexuality" />
 
         <Button
+            style="@style/ButtonCardView"
             android:id="@+id/buttonMenstruation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/menstruation"
-            android:layout_marginBottom="16dp"/>
+            android:text="@string/menstruation" />
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

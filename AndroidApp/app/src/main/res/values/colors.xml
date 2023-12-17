@@ -24,4 +24,5 @@
     <color name="colorError">#FF0000</color>
     <color name="colorSuccess">#00FF00</color>
     <color name="colorWarning">#FFA500</color>
+    <color name="gray">#808080</color>
 </resources>
