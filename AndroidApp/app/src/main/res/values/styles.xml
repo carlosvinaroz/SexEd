@@ -21,7 +21,7 @@
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:background">@color/colorCyan</item>
         <!-- Otros atributos de estilo según tus preferencias -->
     </style>
 

@@ -19,6 +19,12 @@
             android:layout_marginBottom="16dp"
             card_view:cardElevation="8dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/clamidia" />
+
             <LinearLayout
                 android:id="@+id/chlamydiaLinearLayout"
                 android:layout_width="match_parent"
@@ -30,14 +36,9 @@
                 <!-- Puedes personalizar según tus necesidades -->
 
                 <TextView
+                    style="@style/TextViewStyleCardView"
                     android:id="@+id/chlamydiaTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/clamidia"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="8dp"/>
+                    android:text="@string/clamidia" />
                 <!--style="@style/TextviewStyle"-->
 
                 <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario -->
@@ -66,6 +67,12 @@
             android:layout_marginBottom="16dp"
             card_view:cardElevation="8dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gonorrhea" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -77,13 +84,8 @@
 
                 <!-- Etiqueta para el nombre de la enfermedad -->
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/gonorrea"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="8dp"/>
+                    style="@style/TextViewStyleCardView"
+                    android:text="@string/gonorrea"/>
 
                 <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario para Gonorrea -->
 
@@ -105,6 +107,12 @@
             android:layout_marginBottom="16dp"
             card_view:cardElevation="8dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vph" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,13 +124,8 @@
 
                 <!-- Etiqueta para el nombre de la enfermedad -->
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/vph"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="8dp"/>
+                    style="@style/TextViewStyleCardView"
+                    android:text="@string/vph" />
 
                 <!-- Agrega más TextViews, ImageView, y enlaces a YouTube según sea necesario para VPH -->
 

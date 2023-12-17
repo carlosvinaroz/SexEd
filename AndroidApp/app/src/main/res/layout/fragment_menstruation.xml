@@ -38,7 +38,7 @@
                 <Button
                     style="@style/ButtonCardView"
                     android:id="@+id/buttonCompress"
-                    android:text="@string/more_info"/>
+                    android:text="@string/information"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -67,7 +67,7 @@
                 <Button
                     style="@style/ButtonCardView"
                     android:id="@+id/buttonDelays"
-                    android:text="@string/more_info"/>
+                    android:text="@string/information"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

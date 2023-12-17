@@ -15,6 +15,7 @@
     <!-- Colores de texto -->
     <color name="colorText">#333333</color>
     <color name="colorTextLight">#FFFFFF</color>
+    <color name="colorCyan">#00E5E5</color>
 
     <!-- Colores de botones -->
     <color name="colorButtonNormal">#4CAF50</color>

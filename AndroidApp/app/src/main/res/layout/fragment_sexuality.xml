@@ -38,12 +38,9 @@
                 android:text="@string/hygiene" />
 
             <Button
+                style="@style/ButtonCardView"
                 android:id="@+id/buttonHygiene"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/goTo"
-                android:layout_marginTop="8dp"
-                android:layout_gravity="center"/>
+                android:text="@string/information" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -74,7 +71,7 @@
 
             <Button
                 android:id="@+id/buttonPositiveRelations"
-                android:text="@string/goTo"
+                android:text="@string/information"
                 style="@style/ButtonCardView"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -106,7 +103,7 @@
             <!-- Botón para ir a la seccion de Pastillas -->
             <Button
                 android:id="@+id/buttonPills"
-                android:text="@string/goTo"
+                android:text="@string/information"
                 style="@style/ButtonCardView"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -137,7 +134,7 @@
             <!-- Botón para ir a la seccion de preservativo -->
             <Button
                 android:id="@+id/buttonPreservative"
-                android:text="@string/goTo"
+                android:text="@string/information"
                 style="@style/ButtonCardView"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
